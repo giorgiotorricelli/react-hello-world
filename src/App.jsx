@@ -1,13 +1,24 @@
 import './App.css'
 const pippo = "ciao";
 
-const coloriCubo = ["white", "yellow", "red", "orange", "blue", "green"];
-
 function App() {
 
   return <>
     <h1>Rubik</h1>
-    <p>{pippo}</p>
+    <div className="container">
+      <div className="cubo-face row">
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+        <div className="col-4 cubo-section"></div>
+      </div>
+    </div>
+    
   </>
   
   ;

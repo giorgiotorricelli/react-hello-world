@@ -5,3 +5,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.cubo-face {
+  background-color: rgb(55, 55, 55);
+  width: 300px;
+  aspect-ratio: 1;
+  gap: 2px;
+}
+
+.cubo-section {
+  background-color: aqua;
+  width: calc(100% / 3 - (2px / 3) *2);
+  aspect-ratio: 1;
+}
